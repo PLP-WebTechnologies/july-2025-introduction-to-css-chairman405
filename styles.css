@@ -1,0 +1,52 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; /* Resets default browser margin */
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Padding inside the header */
+    margin-bottom: 20px; /* Margin below the header */
+}
+
+/* Main content container */
+main {
+    max-width: 900px;
+    margin: auto; /* Centers the main content horizontally */
+    padding: 0 20px;
+}
+
+/* Styling for the content-box section */
+.content-box {
+    background-color: #e2eafc;
+    padding: 30px; /* Inner spacing */
+    border: 2px solid #5d67e2; /* A visible border */
+    margin-bottom: 20px; /* Outer spacing */
+}
+
+/* Styling for a card-like section */
+.card {
+    background-color: #fff;
+    padding: 20px; /* Inner spacing */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
